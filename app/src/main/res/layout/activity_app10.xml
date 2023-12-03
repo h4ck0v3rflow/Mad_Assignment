@@ -27,7 +27,6 @@
         android:textColorHint="@color/black"
         android:hint="Enter fruit name"
         android:textSize="17sp"
-        android:inputType="numberDecimal"
         android:minHeight="48dp" />
 
     <EditText

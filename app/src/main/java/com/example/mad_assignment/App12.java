@@ -39,7 +39,7 @@ public class App12 extends AppCompatActivity {
                 if (seconds == 35) {
                     setTrafficSignal("vehicle is ready to drive.");
                     setVehicleImage(R.drawable.orange_light);
-                } else if (seconds == 45) {
+                } else if (seconds == 59) {
                     setTrafficSignal("vehicle drive smoothly.");
                     setVehicleImage(R.drawable.green_light);
                 }

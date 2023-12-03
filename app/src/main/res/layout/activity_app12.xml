@@ -54,8 +54,7 @@
         android:id="@+id/vehicleImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|center_vertical"
-        app:srcCompat="@drawable/salary_finder" />
+        android:layout_gravity="center_horizontal|center_vertical"/>
 
     <TextView
         android:id="@+id/signalTextView"
