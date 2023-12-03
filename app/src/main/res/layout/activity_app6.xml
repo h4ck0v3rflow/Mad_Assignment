@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".App6">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/clock_timer" />
+
+    <EditText
+        android:id="@+id/timeInput"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="Enter Clock Time"
+        android:textSize="17sp"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/checkTime"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:ems="50"
+        android:layout_marginTop="16dp"
+        android:text="Find" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="15dp"
+        android:maxLines="8"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:textColor="@color/black" />
+
+</LinearLayout>

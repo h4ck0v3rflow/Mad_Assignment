@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".App1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/distance_calculator" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="Enter distance in KM"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:ems="50"
+        android:layout_marginTop="16dp"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/textViewDistance"
+        android:layout_width="350dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="13dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:text="Distance in meters = 0 m" />
+
+    <TextView
+        android:id="@+id/textViewDistanceFt"
+        android:layout_width="350dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="13dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:text="Distance in feet = 0 ft" />
+
+    <TextView
+        android:id="@+id/textViewDistanceInch"
+        android:layout_width="350dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="13dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:text="Distance in inches = 0 inch" />
+
+
+
+</LinearLayout>
